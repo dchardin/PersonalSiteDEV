@@ -1,0 +1,189 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+
+html {
+    height: 100%;
+}
+
+body {
+
+  /* Location of the image */
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  font-family: 'Just Another Hand';
+  font-size: 25px;
+  color: white;
+
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
+  }
+        }
+
+
+html, body, .container {
+  height: 100%;
+}
+
+/* Reset */
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+
+
+a {
+  color: transparent;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+
+}
+
+/* Position text in the middle */
+.middle_top {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+
+}
+
+.middle_top img {
+    
+    width: 150px;
+    padding: 5px 10px 15px 10px;
+    margin: 5px;
+
+}
+
+
+/* Position text in the middle */
+.middle_bottom {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    max-height: 25%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+
+}
+
+/* Position text in the middle */
+.middle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    max-width: 75%;
+    max-height: 60%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+}
+
+/* Position text in the middle */
+.bottom_top {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    max-height: 25%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+}
+
+.bottom_top i {
+
+    padding: 5px 10px 15px 10px;
+    margin: 5px;
+
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+
+}
+
+#clearbutton1 {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Just Another Hand';
+  color: #ffffff;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  width: 130px;
+  padding: 5px 10px 15px 10px;
+  margin: 5px;
+  background: transparent;
+  border: solid #ffffff 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#clearbutton1:hover {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: 'Just Another Hand';
+  color: #96a8b3;
+  font-size: 30px;
+  width: 130px;
+  padding: 5px 10px 15px 10px;
+  margin: 5px;
+  background: transparent;
+  border: solid #96a8b3 5px;
+  text-decoration: none;
+}

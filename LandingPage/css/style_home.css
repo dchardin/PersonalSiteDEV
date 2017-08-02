@@ -122,10 +122,11 @@ a {
     color: white;
 }
 
+
 /* Position text in the middle */
 .bottom_top {
     position: relative;
-    top: 30%;
+    top: 20%;
     left: 50%;
     max-height: 25%;
     width: 100%;
@@ -136,12 +137,6 @@ a {
     color: white;
 }
 
-.bottom_top i {
-
-    padding: 5px 10px 15px 10px;
-    margin: 5px;
-
-}
 
 /* Position text in the bottom-left corner */
 .bottomleft {
@@ -168,10 +163,32 @@ a {
   padding: 5px 10px 15px 10px;
   margin: 5px;
   background: transparent;
-  border: solid #ffffff 5px;
+  border: solid #ffffff 2px;
   text-align: center;
   text-decoration: none;
 }
+
+#clearbutton2 {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 2px;
+  font-family: 'Just Another Hand';
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  background: transparent;
+  border: solid #ffffff 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
 
 #clearbutton1:hover {
   -webkit-border-radius: 4;
@@ -184,6 +201,6 @@ a {
   padding: 5px 10px 15px 10px;
   margin: 5px;
   background: transparent;
-  border: solid #96a8b3 5px;
+  border: solid #96a8b3 2px;
   text-decoration: none;
 }

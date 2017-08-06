@@ -1,13 +1,19 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 
+
+/* Reset */
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
 html {
     height: 100%;
 }
 
 body {
-
-  /* Location of the image */
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -32,15 +38,31 @@ body {
 
 }
 
+#homeBody {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
+}
+
+#aboutMeBody {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/atHome.jpg');
+}
+
+#howIWorkBody {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+}
+
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image should be, say, 93% smaller
-     * to improve page load speed on mobile internet connections. Haven't set it yet. */
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+  #homeBody {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
   }
-        }
+  #aboutMeBody {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/atHome.jpg');
+  }
 
+  #howIWorkBody {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+  }
+}
 
 html, body, .container {
   height: 100%;
@@ -54,8 +76,6 @@ html, body, h1, p, a, div, section {
   font: inherit;
 }
 
-
-
 a {
   color: transparent;
 }
@@ -65,7 +85,6 @@ a {
     position: absolute;
     top: 0;
     left: 16px;
-        font-size;
     font-family: 'Just Another Hand';
     font-size: 35px;
     color: white;
@@ -75,7 +94,7 @@ a {
 /* Position text in the middle */
 .middle_top {
     position: relative;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -85,11 +104,22 @@ a {
 
 }
 
+.middle_top img {
+    
+    width: 150px;
+    padding: 5px 10px 15px 10px;
+    margin: 5px;
+
+}
+
+
 /* Position text in the middle */
 .middle_bottom {
-    position: absolute;
-    top: 75%;
+    position: relative;
+    top: 20%;
     left: 50%;
+    max-height: 25%;
+    width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Just Another Hand';
@@ -112,13 +142,32 @@ a {
     color: white;
 }
 
+
+/* Position text in the middle */
+.bottom_top {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    max-height: 25%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
+}
+
+
 /* Position text in the bottom-left corner */
 .bottomleft {
     position: absolute;
     bottom: 0;
     left: 16px;
-}
+    font-family: 'Just Another Hand';
+    font-size: 35px;
+    color: white;
 
+}
 
 #clearbutton1 {
   -webkit-border-radius: 4;
@@ -130,14 +179,36 @@ a {
   display: inline-block;
   font-weight: 700;
   line-height: normal;
-  width: 120px;
+  width: 130px;
   padding: 5px 10px 15px 10px;
   margin: 5px;
   background: transparent;
-  border: solid #ffffff 5px;
+  border: solid #ffffff 2px;
   text-align: center;
   text-decoration: none;
 }
+
+#clearbutton2 {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 2px;
+  font-family: 'Just Another Hand';
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: normal;
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  background: transparent;
+  border: solid #ffffff 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
 
 #clearbutton1:hover {
   -webkit-border-radius: 4;
@@ -146,10 +217,10 @@ a {
   font-family: 'Just Another Hand';
   color: #96a8b3;
   font-size: 30px;
-  width: 120px;
+  width: 130px;
   padding: 5px 10px 15px 10px;
   margin: 5px;
   background: transparent;
-  border: solid #96a8b3 5px;
+  border: solid #96a8b3 2px;
   text-decoration: none;
 }

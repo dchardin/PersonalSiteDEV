@@ -50,19 +50,10 @@ body {
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
 }
 
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  #homeBody {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
-  }
-  #aboutMeBody {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/atHome.jpg');
-  }
-
-  #howIWorkBody {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
-  }
+#devWorkshedBody {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
 }
+
 
 html, body, .container {
   height: 100%;
@@ -78,6 +69,17 @@ html, body, h1, p, a, div, section {
 
 a {
   color: transparent;
+}
+
+
+.shedProjectImg {
+	
+    height: 75%;
+    width: 75%;
+    max-height: 300px;
+    max-width: 300px;
+    float:left;
+    margin: 10px 10px 10px 10px;
 }
 
 /* Position text in the top-left corner */
@@ -108,7 +110,6 @@ a {
     
     width: 150px;
     padding: 5px 10px 15px 10px;
-    margin: 5px;
 
 }
 
@@ -140,6 +141,13 @@ a {
     font-family: 'Just Another Hand';
     font-size: 35px;
     color: white;
+}
+
+.middle hr {
+
+    display: block;
+    margin-top: 10px;
+
 }
 
 
@@ -207,9 +215,6 @@ a {
   text-decoration: none;
 }
 
-
-
-
 #clearbutton1:hover {
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
@@ -224,3 +229,31 @@ a {
   border: solid #96a8b3 2px;
   text-decoration: none;
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  #homeBody {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
+  }
+  #aboutMeBody {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/atHome.jpg');
+  }
+
+  #howIWorkBody {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+  }
+
+  #devWorkshedBody {
+   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+  }
+
+.shedProjectImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+
+}
+
+}
+

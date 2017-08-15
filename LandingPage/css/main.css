@@ -32,7 +32,7 @@ body {
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  font-family: 'Just Another Hand';
+  font-family: 'Cutive Mono';
   font-size: 25px;
   color: white;
 
@@ -87,7 +87,7 @@ a {
     position: absolute;
     top: 0;
     left: 16px;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 
@@ -100,7 +100,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 
@@ -123,7 +123,7 @@ a {
     width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 
@@ -138,7 +138,7 @@ a {
     max-height: 60%;
     transform: translate(-50%, -50%);
     text-align: justify;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 }
@@ -160,7 +160,7 @@ a {
     width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 }
@@ -171,7 +171,7 @@ a {
     position: absolute;
     bottom: 0;
     left: 16px;
-    font-family: 'Just Another Hand';
+    font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
 
@@ -181,14 +181,14 @@ a {
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
-  font-family: 'Just Another Hand';
+  font-family: 'Cutive Mono';
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   display: inline-block;
   font-weight: 700;
   line-height: normal;
   width: 130px;
-  padding: 5px 10px 15px 10px;
+  padding: 5px 15px 5px 15px;
   margin: 5px;
   background: transparent;
   border: solid #ffffff 2px;
@@ -200,14 +200,14 @@ a {
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 2px;
-  font-family: 'Just Another Hand';
+  font-family: 'Cutive Mono';
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
   display: inline-block;
   font-weight: 700;
   line-height: normal;
   width: 100px;
-  padding: 5px 5px 5px 5px;
+  padding: 1px 1px 1px 1px;
   margin: 5px;
   background: transparent;
   border: solid #ffffff 2px;
@@ -219,11 +219,11 @@ a {
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
-  font-family: 'Just Another Hand';
+  font-family: 'Cutive Mono';
   color: #96a8b3;
-  font-size: 30px;
+  font-size: 20px;
   width: 130px;
-  padding: 5px 10px 15px 10px;
+  padding: 5px 15px 5px 15px;
   margin: 5px;
   background: transparent;
   border: solid #96a8b3 2px;

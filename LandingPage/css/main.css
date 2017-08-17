@@ -47,7 +47,7 @@ body {
 }
 
 #howIWorkBody {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/working1.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
 }
 
 #devWorkshedBody {
@@ -137,7 +137,7 @@ a {
     max-width: 75%;
     max-height: 60%;
     transform: translate(-50%, -50%);
-    text-align: justify;
+    text-align: left;
     font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;

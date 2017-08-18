@@ -47,7 +47,7 @@ body {
 }
 
 #howIWorkBody {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../img/working1.jpg');
 }
 
 #devWorkshedBody {
@@ -84,7 +84,7 @@ a {
 
 /* Position text in the top-left corner */
 .topleft {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 16px;
     font-family: 'Cutive Mono';
@@ -96,7 +96,7 @@ a {
 /* Position text in the middle */
 .middle_top {
     position: relative;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -139,7 +139,7 @@ a {
     transform: translate(-50%, -50%);
     text-align: left;
     font-family: 'Cutive Mono';
-    font-size: 35px;
+    font-size: 25px;
     color: white;
 }
 

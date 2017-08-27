@@ -85,11 +85,12 @@ a {
 /* Position text in the top-left corner */
 .topleft {
     position: fixed;
-    top: 0;
-    left: 16px;
+    width: 100%;
     font-family: 'Cutive Mono';
     font-size: 35px;
     color: white;
+    background-color: black;
+    z-index: 3;
 
 }
 

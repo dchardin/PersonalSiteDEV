@@ -27,15 +27,15 @@ body {
 }
 
 #aboutMeBody {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/atHome.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/atHome.jpg');
 }
 
 #howIWorkBody {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/working1.jpg');
 }
 
 #devWorkshedBody {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/working1.jpg');
 }
 
 a {
@@ -192,18 +192,18 @@ a {
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   #homeBody {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/hangingrock2015.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../img/hangingrock2015.jpg');
   }
   #aboutMeBody {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/atHome.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/atHome.jpg');
   }
 
   #howIWorkBody {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
+   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/working1.jpg');
   }
 
   #devWorkshedBody {
-   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../img/working1.jpg');
+   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/working1.jpg');
   }
 
 .shedProjectImg {
